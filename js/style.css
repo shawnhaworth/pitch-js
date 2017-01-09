@@ -1,0 +1,94 @@
+.card {
+	height: 99px;
+	width: 76px;
+	margin-left: 3px;
+	float: left;
+	cursor: pointer;
+}
+.cardImg {
+	overflow: hidden;
+	height: 98px;
+	width: 76px;
+	position: relative;
+}
+.cardImg img {
+	display: block;
+	position: absolute;
+}
+#table {
+	width: 1185px;
+	height: 570px;
+	float: left;
+	border: 1px solid #000000;
+}
+#scorePad {
+	width: 160px;
+	height: 300px;
+	float: left;
+	border: 1px dotted #000000;
+}
+#scorePad div {
+	margin-left: 7px;
+}
+.teamArea {
+	width: 71px;
+	float: left;
+}
+.playerTop {
+	border: 1px dotted #000000;
+	height: 300px;
+	width: 590px;
+	float: left;
+}
+.playerTop div {
+	position: relative;
+	bottom: 3%;
+}
+.playerBottom {
+	border: 1px dotted #000000;
+	height: 270px;
+	width: 590px;
+	float: left;
+}
+.playerBottom div {
+	position: relative;
+	bottom: -25%;
+}
+.selector {
+	display: none;
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	top: 420px;
+	left: 650px;
+	padding: 15px;
+	margin-left: 5px;
+	background-color: #CCCCCC;
+	border: 2px solid #000000;
+}
+#cardArea {
+	position: absolute;
+	border: 1px solid #000000;
+	top: 380px;
+	left: 628px;
+	width: 215px;
+	height: 215px;
+}
+#cardArea div {
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 5px;
+}
+ul.bidSelector {
+	list-style-type: none;
+}
+ul.bidSelector li {
+	border: 1px solid #000000;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
